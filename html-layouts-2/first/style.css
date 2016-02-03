@@ -1,0 +1,127 @@
+/*PAGE STYLES------*/
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+
+body {
+   background: white;
+
+}
+.container {
+   width: 97%;
+   margin: 0 auto;
+}
+
+
+/*NAV BAR----------*/
+.redsquare {
+   background: #D50021;
+   width: 100%;
+   height: 12vh;
+   margin-top: 5px;
+}
+
+
+
+/*Paragraph Block-------*/
+.p-block {
+   height: 34vh;
+   overflow: hidden;
+   margin-top: 2px;
+
+}
+
+.paragraph {
+   width: 90%;
+   margin: 0 auto;
+}
+
+
+
+/*Large Banner-----------*/
+.body-banner {
+
+}
+
+.right {
+
+      background: #4492DC;
+      width: 100%;
+      height: 30vh;
+      margin-top: 2%;
+   }
+
+/*FOOTER----------*/
+
+.footer {
+
+}
+
+.footer-left{
+   background: #4A4A4A;
+   width: 100%;
+   height: 12vh;
+   margin-top: 3%;
+}
+
+/*COLORS
+#4492DC
+#4A4A4A
+*/
+
+/*MEDIA QUERIES ----------------*/
+
+@media (min-width: 660px) {
+   .body-banner {
+      display: flex;
+   }
+   .left {
+         background: #D50021;
+         width: 20%;
+         height: 30vh;
+         margin-top: 2%;
+      }
+
+   .right {
+
+         background: #4492DC;
+         width: 80%;
+         height: 30vh;
+         margin-top: 2%;
+      }
+
+   .footer {
+      display: flex;;
+   }
+
+   .footer-left{
+      background: #4492DC;
+      width: 80%;
+      height: 12vh;
+      margin-top: 3%;
+   }
+
+   .footer-right{
+      background: #D50021;
+      width: 20%;
+      height: 12vh;
+      margin-top: 3%;
+   }
+
+   .footer-grey {
+      background: #4A4A4A;
+      width: 80%;
+      height: 12vh;
+      margin: 0 auto;
+
+   }
+
+
+
+
+}
