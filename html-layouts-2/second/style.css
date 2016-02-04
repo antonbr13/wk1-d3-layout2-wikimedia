@@ -33,17 +33,13 @@ body {
 .top-block {
    background: white;
    width: 80%;
-   /*height: 20vh;*/
    margin: 20px auto 0;
    padding: 3% 5%;
 }
 
-.top {
 
-}
 
 .boxes {
-   /*display: flex;*/
    text-align: center;
    font: 2em, Serif, Verdana, "Helvetica Neue Light", Helvetica;
    color: white;
@@ -129,3 +125,43 @@ MEDIA
 
 
 /* Media Query-----------*/
+
+@media (min-width: 600px) {
+   .boxes {
+      display: flex;
+      color: white;
+      text-align: center;
+   }
+
+
+
+   .red-box {
+      background: #CA001A;
+      padding: 0% 10%;
+      margin-right: 2%;
+      /*margin-bottom: 10px;*/
+
+   }
+
+   .blue-box {
+      background: #4085DE;
+      padding:0% 10%;
+      margin-right: 2%;
+   }
+
+
+   .footer {
+      text-align: right;
+      width: 100%;
+      background: #2d2d2d;
+      color: white;
+      margin-top: 30px;
+
+   }
+
+   .footer p {
+      display: inline-block;
+      margin-right: 5%;
+   }
+
+}
