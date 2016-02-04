@@ -49,17 +49,16 @@ body {
       font: 2em, Serif, Verdana, "Helvetica Neue Light", Helvetica;
 }
 
-.red-box {
+.box {
    background: #CA001A;
-   padding:1% 2%;
-   /*margin-right: 2%;*/
+   padding:1% 10%;
+   margin-right: 2%;
    margin-bottom: 10px;
 
 }
 
-.blue-box {
-   background: #4085DE;
-   padding:1% 2%;
+#blue {
+  background-color: #4085DE;
 }
 
 /*
@@ -139,7 +138,7 @@ MEDIA
       background: #CA001A;
       padding: 0% 10%;
       margin-right: 2%;
-      /*margin-bottom: 10px;*/
+      margin-bottom: 10px;
 
    }
 
@@ -164,4 +163,4 @@ MEDIA
       margin-right: 5%;
    }
 
-}
+}*/
