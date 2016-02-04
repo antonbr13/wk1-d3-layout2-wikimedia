@@ -1,0 +1,131 @@
+/*Base Page Styles -----------*/
+html {
+   box-sizing: border-box;
+   padding: 0;
+}
+
+*,*:before, *:after {
+   box-sizing: inherit;
+}
+
+body {
+   background: #D2D2D2;
+   font-size: .9em;
+   padding: 0;
+}
+
+.container {
+   min-height: 100vh;
+   margin-bottom: -55px;
+}
+
+.container:after {
+   content: "";
+   display: block;
+}
+
+.bar, .container:after{
+   height: 50px;
+}
+
+/*Top Block -----------*/
+
+.top-block {
+   background: white;
+   width: 80%;
+   /*height: 20vh;*/
+   margin: 20px auto 0;
+   padding: 3% 5%;
+}
+
+.top {
+
+}
+
+.boxes {
+   /*display: flex;*/
+   text-align: center;
+   font: 2em, Serif, Verdana, "Helvetica Neue Light", Helvetica;
+   color: white;
+}
+
+.boxes p {
+      font: 2em, Serif, Verdana, "Helvetica Neue Light", Helvetica;
+}
+
+.red-box {
+   background: #CA001A;
+   padding:1% 2%;
+   /*margin-right: 2%;*/
+   margin-bottom: 10px;
+
+}
+
+.blue-box {
+   background: #4085DE;
+   padding:1% 2%;
+}
+
+/*
+header {
+  position: fixed;
+  top: 0;
+  height: 50px
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 50px
+}
+
+.main-container {
+   display: flex;
+   flex-direction: column;
+}
+
+MEDIA
+.main-container {
+   display: flex;
+   flex-direction: row;
+}
+*/
+
+
+/* Bottom Block-----------*/
+
+.bottom-block {
+   background: white;
+   width: 80%;
+   margin: 20px auto 0;
+   padding: 3% 5%;
+}
+
+.image {
+   background: #414141;
+   width: 100%;
+   height: 150px;
+   margin: 0 auto;
+   color: white;
+   text-align: center;
+   padding-top: 45px;
+}
+
+/* Footer Bar-----------*/
+
+.footer {
+   text-align: center;
+   width: 100%;
+   background: #2d2d2d;
+   color: white;
+   margin-top: 30px;
+
+}
+
+.footer p {
+   display: inline-block;
+   margin-right: 5%;
+}
+
+
+/* Media Query-----------*/
