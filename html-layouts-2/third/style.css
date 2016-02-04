@@ -39,7 +39,7 @@ header {
 .container {
    width: 80%;
    margin: 0px auto;
-   padding: 60px 0;
+   padding: 70px 0;
 }
 
 .picture {
@@ -63,17 +63,17 @@ footer {
 
 /*MEDIA-----------*/
 @media (min-width: 600px) {
-
+   h2 {
+      margin: auto
+   }
+   
    .container {
       -webkit-column-count:2;
-   }
-
-   .column1 {
+      -webkit-column-gap:5em;
 
    }
-   .column2 {
 
-   }
+
 
    .links {
       color: white;
